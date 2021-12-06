@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #4747d1;
+  width: "100%";
+  height: 3rem;
+}
+
+.nav a {
+  color: #fff;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #4747d1;
+}
+
+.calcSimples {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  border: 1px solid #4747d1;
+  border-radius: 1rem;
+}
+
+.resultado {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  width: "100%";
+  background-color: #f2f2f2;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.resultadoLabel{
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+input {
+  width: 40%;
+  height: 1rem;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+select {
+  width: 30%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  
+}
+
+.buttonContainer {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: flex-end;
+  /* margin-right: 1rem; */
+}
+.buttonContainer button {
+  width: 30%;
+}

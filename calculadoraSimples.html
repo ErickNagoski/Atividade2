@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc Simples</title>
+    <link rel="stylesheet" href="./css/style01.css">
+</head>
+
+<body>
+    <div class="calcSimples">
+        <div class="resultado">
+            <label>Resultado:</label>
+            <label class="resultadoLabel" id="resultado" value="130">130</label>
+        </div>
+        <input type="number" id="n1" placeholder="Valor 1: " />
+        <input type="number" id="n2" placeholder="Valor 2: " />
+        <select>
+            <option>Operação</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="x">x</option>
+        </select>
+        <div class="buttonContainer">
+            <button type="button" onclick="calcular()">Calcular</button>
+        </div>
+    </div>
+</body>
+
+</html>
