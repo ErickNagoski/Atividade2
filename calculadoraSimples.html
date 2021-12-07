@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calc Simples</title>
     <link rel="stylesheet" href="./css/style01.css">
+    <script  type="text/javascript" src="./js/calcSimples.js"></script>
 </head>
 
 <body>
     <div class="calcSimples">
         <div class="resultado">
             <label>Resultado:</label>
-            <label class="resultadoLabel" id="resultado" value="130">130</label>
+            <label class="resultadoLabel" id="resultado" value=""></label>
         </div>
-        <input type="number" id="n1" placeholder="Valor 1: " />
-        <input type="number" id="n2" placeholder="Valor 2: " />
-        <select>
+        <input type="number" id="n1" value="" placeholder="Valor 1: " />
+        <input type="number" id="n2" value="" placeholder="Valor 2: " />
+        <select id="op">
             <option>Operação</option>
             <option value="+">+</option>
             <option value="-">-</option>
@@ -25,7 +26,7 @@
             <option value="x">x</option>
         </select>
         <div class="buttonContainer">
-            <button type="button" onclick="calcular()">Calcular</button>
+            <button type="button" onclick="calcula()">Calcular</button>
         </div>
     </div>
 </body>

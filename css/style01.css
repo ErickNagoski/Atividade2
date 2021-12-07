@@ -38,7 +38,7 @@ body {
   flex-direction: row;
   height: 2rem;
   width: "100%";
-  background-color: #f2f2f2;
+  background-color: #e6e6e6;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   justify-content: space-between;
@@ -77,8 +77,44 @@ select {
   width: 90%;
   align-items: center;
   justify-content: flex-end;
-  /* margin-right: 1rem; */
 }
 .buttonContainer button {
+  width: 30%;
+}
+
+.notesContainer{
+  width: 30%;
+}
+
+.notesContainer div{
+ display: flex;
+ width: 100%;
+ flex-direction: row;
+ align-items: center;
+ justify-content: flex-start;
+ margin-left: 1rem;
+}
+
+.notesContainer button{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.notesResult{
+  border: 1px solid #000;
+  width: 70%;
+  height: 1.5rem;
+}
+
+.fatorialContainer{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.fatorialContainer button{
   width: 30%;
 }
